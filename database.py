@@ -8,3 +8,4 @@ class Base(DeclarativeBase):
     pass
 
 session = sessionmaker(autocommit = False , autoflush = False, bind = engine)
+ 
